@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Random Beers</h1>
+    <p>{{name}}</p>
+    <div class="row">
+        {{> beerPartial}}
+        <h5 class="random-Beer-typebrew">{{first_brewed}}</h5>
+        <ul>
+            <li class="random-Beer-typefood">{{food_pairing.[0]}}</li>
+            <li class="random-Beer-typefood">{{food_pairing.[1]}}</li>
+            <li class="random-Beer-typefood">{{food_pairing.[2]}}</li>
+        </ul>
+    </div>
+</div>
